@@ -12,7 +12,7 @@ export default function Hero({ dict }: { dict: HeroDict }) {
   return (
     <section className='relative h-screen min-h-[600px] overflow-hidden bg-zinc-950'>
       <video autoPlay muted loop playsInline aria-hidden='true' className='absolute inset-0 w-full h-full object-cover md:hidden pointer-events-none'>
-        <source src='/promo_clip_mobile.mp4' type='video/mp4' />
+        <source src='/promo_clip_mobile.MP4' type='video/mp4' />
       </video>
 
       <video
