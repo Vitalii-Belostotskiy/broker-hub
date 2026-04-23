@@ -1,0 +1,79 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "howItWorks": "How it works",
+      "important": "Important",
+      "earnings": "Earnings",
+      "forWho": "For who",
+      "readyToStart": "Ready to start"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Property Hub. All rights reserved."
+  },
+  "hero": {
+    "title": "Access to exclusive real estate deals",
+    "subtitle": "Special prices, bonuses and discounts from developers — through the Property Hub partner platform.",
+    "cta": "Get access",
+    "badges": ["Special prices", "Bonuses & discounts", "Installment plans", "Risk-free"]
+  },
+  "about": {
+    "label": "About the platform",
+    "paragraphs": [
+      "Property Hub — is a partner referral platform in the real estate sector.",
+      "We obtain special (closed) conditions from developers and open them to our partners.",
+      "You recommend the best properties to your clients under the same conditions that are usually unavailable on the open market."
+    ],
+    "cards": ["You don't need to be a broker. Your role — is a recommendation.", "The deal is fully managed by the developer's sales department."]
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "steps": [
+      "You recommend a property or project and explain its value to the client",
+      "You send the client your personal referral link or code to submit a request",
+      "The client submits a request — the system records who referred them",
+      "The developer's sales department contacts the client and manages the deal fully: negotiations, documents, support",
+      "Once the deal is closed, you receive your referral fee"
+    ]
+  },
+  "earnings": {
+    "title": "How much can you earn",
+    "tiers": [
+      { "rate": "4%", "level": "Level 0", "desc": "of the deal value, for deals you closed directly." },
+      { "rate": "1%", "level": "Level 1–2", "desc": "of partner deals from people you invited." }
+    ],
+    "note": "Rates may vary depending on the project. Fees are paid after successful deal closure.",
+    "whyTitle": "Why we don't compete with partners",
+    "whyPoints": [
+      "We have no direct sales — we don't take your clients.",
+      "To get access, the client must go through your referral link and submit a request.",
+      "Without a link or code the client cannot use these conditions.",
+      "New partners can only register by invitation.",
+      "This system protects you from bypass and client loss."
+    ]
+  },
+  "forWho": {
+    "title": "Who this platform is for",
+    "cards": [
+      "If you have people interested in buying real estate (friends, networks, social media, clients)",
+      "If you don't want to become a broker, but want to earn on referrals",
+      "If you need a simple process: referral → request → deal → reward"
+    ]
+  },
+  "important": {
+    "title": "Important",
+    "items": [
+      "This is not a staffing or employment contract.",
+      "We don't promise a fixed income — payments are made only after a successful deal.",
+      "Do not take money from clients — we are not a fund, brokerage or investment advisor.",
+      "You recommend and refer — all other work is done by the developer's department and licensed specialists."
+    ]
+  },
+  "cta": {
+    "title": "Ready to start?",
+    "subtitle": "Access projects and start earning on referrals today",
+    "button": "Become a partner"
+  }
+}
