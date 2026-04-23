@@ -66,7 +66,7 @@ export default function LanguageSwitcher({ currentLocale }: Props) {
       {/* Current locale — button for mobile tap, decorative on desktop */}
       <button
         onClick={() => setMobileOpen((v) => !v)}
-        className='text-xs font-semibold text-white uppercase tracking-widest select-none md:cursor-default'
+        className='text-md font-semibold text-white uppercase tracking-widest select-none md:cursor-default'
         aria-expanded={mobileOpen}
         aria-haspopup='listbox'
       >
@@ -80,7 +80,7 @@ export default function LanguageSwitcher({ currentLocale }: Props) {
           md:hidden
           absolute top-full right-0 mt-2
           flex flex-col items-end gap-1
-          bg-gray-900/95 backdrop-blur-sm rounded-lg shadow-xl
+          
           transition-all duration-200 ease-out
           ${mobileOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-1 pointer-events-none'}
         `}
@@ -90,7 +90,7 @@ export default function LanguageSwitcher({ currentLocale }: Props) {
             key={locale}
             href={getLocalePath(locale)}
             onClick={() => setMobileOpen(false)}
-            className='text-xs font-medium text-gray-400 hover:text-white uppercase tracking-widest transition-colors py-1'
+            className='text-md font-medium text-gray-300 hover:text-white uppercase tracking-widest transition-colors py-1'
           >
             {locale}
           </Link>

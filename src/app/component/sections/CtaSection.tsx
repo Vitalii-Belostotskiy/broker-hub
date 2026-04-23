@@ -13,7 +13,7 @@ export default function CtaSection({ dict }: { dict: CtaDict }) {
       {/* Background image with overlay */}
       <div className='absolute inset-0 pointer-events-none select-none'>
         <Image fill src='/layan-verde_exterior_11.jpg' alt='' aria-hidden='true' className='w-full h-full object-cover opacity-35' />
-        <div className='absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/50 to-zinc-950/30' />
+        <div className='absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-zinc-950/10 to-zinc-900/5' />
       </div>
 
       <div className='relative z-10 max-w-2xl mx-auto text-center px-4'>

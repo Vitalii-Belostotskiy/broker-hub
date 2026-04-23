@@ -34,13 +34,6 @@ export default function BurgerMenu({ lang, nav }: Props) {
 
   const handleClose = () => setOpen(false);
 
-  const handleSwipe = useSwipeable({
-    onSwipedLeft: () => setOpen(false),
-    preventScrollOnSwipe: true,
-    trackTouch: true,
-    trackMouse: false,
-  });
-
   useEffect(() => {
     const handleOutside = (e: MouseEvent | TouchEvent) => {
       if (ref.current && !ref.current.contains(e.target as Node)) {
@@ -58,7 +51,7 @@ export default function BurgerMenu({ lang, nav }: Props) {
   return (
     <>
       {/* Burger button — mobile only */}
-      <button onClick={() => setOpen(true)} className='md:hidden text-[22px]' aria-label='Open menu' aria-expanded={open}>
+      <button onClick={() => setOpen(true)} className='md:hidden text-2xl' aria-label='Open menu' aria-expanded={open}>
         <RxHamburgerMenu />
       </button>
 
@@ -74,7 +67,6 @@ export default function BurgerMenu({ lang, nav }: Props) {
 
       {/* Slide-in panel — 1/3 of screen from the left */}
       <aside
-        {...handleSwipe}
         ref={ref}
         className={`
           md:hidden fixed top-0 left-0 h-screen w-full max-w-[15rem] z-50

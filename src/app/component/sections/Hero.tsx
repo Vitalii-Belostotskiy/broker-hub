@@ -12,19 +12,24 @@ export default function Hero({ dict }: { dict: HeroDict }) {
   return (
     <section className='relative h-screen min-h-[600px] overflow-hidden bg-zinc-950'>
       {/* Mobile video */}
-      <video autoPlay muted loop playsInline aria-hidden='true'
-        className='absolute inset-0 w-full h-full object-cover md:hidden'>
+      <video autoPlay muted loop playsInline aria-hidden='true' className='absolute inset-0 w-full h-full object-cover md:hidden pointer-events-none'>
         <source src='/promo_clip_mobile.mp4' type='video/mp4' />
       </video>
 
       {/* Desktop video */}
-      <video autoPlay muted loop playsInline aria-hidden='true'
-        className='absolute inset-0 w-full h-full object-cover hidden md:block'>
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        aria-hidden='true'
+        className='absolute inset-0 w-full h-full object-cover hidden md:block pointer-events-none'
+      >
         <source src='/promo_clip.MOV' type='video/mp4' />
       </video>
 
       {/* Dark overlay */}
-      <div className='absolute inset-0 bg-gradient-to-b from-zinc-950/40 via-zinc-950/30 to-zinc-900/30' />
+      <div className='absolute inset-0 bg-gradient-to-b from-zinc-950/30 via-zinc-950/20 to-zinc-900/30 pointer-events-none' />
 
       {/* Content */}
       <div className='relative z-10 h-full flex items-center'>
