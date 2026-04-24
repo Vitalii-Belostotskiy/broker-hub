@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 interface Props {
   children: React.ReactNode;
   delay?: number;
-  direction?: 'left' | 'up';
+  direction?: 'left' | 'up' | 'right';
   className?: string;
   rootMargin?: string;
 }
@@ -24,7 +24,7 @@ export default function AnimateIn({ children, delay = 0, direction = 'left', cla
           observer.disconnect();
         }
       },
-      { threshold: 0.12, rootMargin }
+      { threshold: 0.12, rootMargin },
     );
     observer.observe(el);
     return () => observer.disconnect();

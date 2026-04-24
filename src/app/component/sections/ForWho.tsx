@@ -31,15 +31,25 @@ export default function ForWho({ dict }: { dict: ForWhoDict }) {
         <div className='grid md:grid-cols-2 gap-6 items-stretch'>
           {/* Left: image fills height of all cards */}
           <AnimateIn delay={180} className='h-full'>
-            <div className='relative rounded-2xl overflow-hidden h-full min-h-[280px]'>
+            {/* <div className='relative rounded-2xl overflow-hidden h-full min-h-[280px]'>
               <Image fill src='/Gemini_Generated_Image_hxzfo2hxzfo2hxzf.png' alt='' aria-hidden='true' className='w-full h-full object-cover' />
-            </div>
+            </div> */}
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              aria-hidden='true'
+              className='absolute rounded-2xl inset-0 w-full h-full object-cover hidden md:block pointer-events-none'
+            >
+              <source src='/buisines_lady.MP4' type='video/mp4' />
+            </video>
           </AnimateIn>
 
           {/* Right: cards stacked vertically */}
           <div className='flex flex-col gap-4'>
             {dict.cards.map((card, i) => (
-              <AnimateIn key={i} delay={(i + 1) * 180}>
+              <AnimateIn key={i} delay={(i + 1) * 180} direction='up'>
                 <div className='bg-white border border-gray-200 rounded-2xl px-6 py-5 flex items-center gap-5 shadow-sm hover:shadow-md hover:border-amber-400 transition-all'>
                   <div className='shrink-0 w-12 h-12 rounded-xl bg-white border border-amber-500 flex items-center justify-center'>{ICONS[i]}</div>
                   <p className='text-gray-700 text-base sm:text-lg leading-relaxed'>{card}</p>
