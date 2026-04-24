@@ -16,12 +16,12 @@ export default function BurgerMenu({ lang, nav }: Props) {
   const ref = useRef<HTMLDivElement>(null);
 
   const navLinks = [
-    { href: `/${lang}`, label: nav.home },
+    { href: `/${lang}#home`, label: nav.home },
     { href: `/${lang}#about`, label: nav.about },
     { href: `/${lang}#howItWorks`, label: nav.howItWorks },
-    { href: `/${lang}#important`, label: nav.important },
     { href: `/${lang}#earnings`, label: nav.earnings },
     { href: `/${lang}#forWho`, label: nav.forWho },
+    { href: `/${lang}#important`, label: nav.important },
     { href: `/${lang}#readyToStart`, label: nav.readyToStart },
   ] as const;
 

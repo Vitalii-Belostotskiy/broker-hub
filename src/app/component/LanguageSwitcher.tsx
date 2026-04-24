@@ -56,7 +56,7 @@ export default function LanguageSwitcher({ currentLocale }: Props) {
           <Link
             key={locale}
             href={getLocalePath(locale)}
-            className='text-xs font-medium text-gray-400 hover:text-white uppercase tracking-widest transition-colors'
+            className='text-md font-medium text-gray-400 hover:text-white uppercase tracking-widest transition-colors'
           >
             {locale}
           </Link>
