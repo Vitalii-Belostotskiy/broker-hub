@@ -51,13 +51,13 @@ export default function About({ dict }: { dict: AboutDict }) {
           <div className='flex flex-col gap-4'>
             <AnimateIn delay={600}>
               <div className='mt-2 rounded-2xl overflow-hidden h-60 relative'>
-                <Image fill src='/Gemini_Generated_Image_42piks42piks42pi.png' alt='Property' className='w-full h-full object-cover' />
+                <Image fill src='/Gemini_Image_ocean.png' alt='Property' className='w-full h-full object-cover' />
                 <div className='absolute inset-0 bg-gradient-to-t from-gray-50/30 to-transparent' />
               </div>
             </AnimateIn>
             <AnimateIn delay={600}>
               <div className='mt-2 rounded-2xl overflow-hidden h-60 relative'>
-                <Image fill src='/Gemini_Generated_Image_cyvk21cyvk21cyvk.png' alt='Property' className='w-full h-full object-cover' />
+                <Image fill src='/Gemini_Image_pool.png' alt='Property' className='w-full h-full object-cover' />
                 <div className='absolute inset-0 bg-gradient-to-t from-gray-50/30 to-transparent' />
               </div>
             </AnimateIn>

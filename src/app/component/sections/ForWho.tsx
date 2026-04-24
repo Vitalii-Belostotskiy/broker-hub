@@ -31,9 +31,6 @@ export default function ForWho({ dict }: { dict: ForWhoDict }) {
         <div className='grid md:grid-cols-2 gap-6 items-stretch'>
           {/* Left: image fills height of all cards */}
           <AnimateIn delay={180} className='h-full'>
-            {/* <div className='relative rounded-2xl overflow-hidden h-full min-h-[280px]'>
-              <Image fill src='/Gemini_Generated_Image_hxzfo2hxzfo2hxzf.png' alt='' aria-hidden='true' className='w-full h-full object-cover' />
-            </div> */}
             <video
               autoPlay
               muted
