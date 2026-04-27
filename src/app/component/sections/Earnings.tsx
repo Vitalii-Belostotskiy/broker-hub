@@ -17,7 +17,7 @@ interface EarningsDict {
 
 export default function Earnings({ dict }: { dict: EarningsDict }) {
   return (
-    <section id='earnings' className='flex items-center h-full py-10 scroll-mt-20 '>
+    <section id='earnings' className='flex items-center h-full py-10 bg-[#0a0a0a] scroll-mt-20'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full'>
         <AnimateIn delay={0}>
           <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-12'>{dict.title}</h2>
