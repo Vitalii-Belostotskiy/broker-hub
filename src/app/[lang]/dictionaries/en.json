@@ -11,7 +11,49 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Property Hub. All rights reserved."
+    "copyright": "© 2025 Property Hub. All rights reserved.",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "cookie": {
+    "message": "We use cookies to analyse traffic and improve your experience.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learnMore": "Learn more"
+  },
+  "privacy": {
+    "back": "Back to main page",
+    "title": "Privacy Policy",
+    "updated": "Last updated: April 2025",
+    "sections": [
+      {
+        "heading": "1. General",
+        "body": "This Privacy Policy explains how Property Hub (\"we\", \"our\", \"us\") handles information when you visit our website. We do not collect personal data through forms or accounts. However, we use third-party analytics tools that may collect certain technical data automatically."
+      },
+      {
+        "heading": "2. Google Analytics",
+        "body": "We use Google Analytics to understand how visitors interact with our website. Google Analytics collects anonymised information such as:\n• Your IP address (anonymised)\n• Browser type and version\n• Pages visited and time spent\n• Referring website\n\nThis data is processed by Google LLC and subject to Google's Privacy Policy (policies.google.com). We do not have access to personally identifiable information through Analytics."
+      },
+      {
+        "heading": "3. Cookies",
+        "body": "Google Analytics sets the following cookies:\n• _ga — distinguishes unique users, expires after 2 years\n• _ga_* — maintains session state, expires after 2 years\n\nThese cookies are only set after you give your consent via the cookie banner. You may withdraw consent at any time by clearing your browser cookies."
+      },
+      {
+        "heading": "4. Your choices",
+        "body": "You can decline cookie tracking via the banner shown on your first visit. You can also opt out of Google Analytics tracking at any time using the Google Analytics Opt-out Browser Add-on available at tools.google.com/dlpage/gaoptout."
+      },
+      {
+        "heading": "5. Data retention",
+        "body": "Analytics data is retained by Google for up to 26 months. We do not store any personal data on our own servers."
+      },
+      {
+        "heading": "6. Changes to this policy",
+        "body": "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date."
+      },
+      {
+        "heading": "7. Contact",
+        "body": "If you have any questions about this Privacy Policy, please contact us via the Property Hub platform."
+      }
+    ]
   },
   "hero": {
     "title": "Access to exclusive real estate deals",

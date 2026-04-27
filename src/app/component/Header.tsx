@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import LanguageSwitcher from './LanguageSwitcher';
 import BurgerMenu from './BurgerMenu';
-import NavLinkItem from './sections/LinkItem';
+import NavLinkItem from './NavLinkItem';
 
 interface HeaderProps {
   lang: string;

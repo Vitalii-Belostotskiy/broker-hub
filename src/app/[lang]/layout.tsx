@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import { Geist } from 'next/font/google'
 import '../globals.css'
+import CookieConsent from '../component/CookieConsent'
 import { notFound } from 'next/navigation'
 import { getDictionary, hasLocale, type Locale } from './dictionaries'
 import Header from '../component/Header'
@@ -90,9 +91,10 @@ export default async function LangLayout({
   return (
     <html lang={lang} className={`${geistSans.variable} h-full antialiased scroll-smooth`}>
       <body className='min-h-full flex flex-col'>
+        <CookieConsent lang={lang} texts={dict.cookie} />
         <Header lang={lang} nav={dict.header.nav} />
         {children}
-        <Footer copyright={dict.footer.copyright} />
+        <Footer copyright={dict.footer.copyright} privacyPolicy={dict.footer.privacyPolicy} lang={lang} />
       </body>
     </html>
   )
