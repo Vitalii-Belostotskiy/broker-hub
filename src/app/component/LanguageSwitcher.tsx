@@ -78,11 +78,11 @@ export default function LanguageSwitcher({ currentLocale }: Props) {
         aria-hidden={!mobileOpen}
         className={`
           md:hidden
-          absolute top-full right-0 mt-2
-          flex flex-col items-end gap-1
+          absolute right-full top-1/2 -translate-y-1/2
+          flex items-end gap-2 pr-2
           
           transition-all duration-200 ease-out
-          ${mobileOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-1 pointer-events-none'}
+          ${mobileOpen ? 'opacity-100 translate-x-0 pointer-events-auto' : 'opacity-0 translate-x-1 pointer-events-none'}
         `}
       >
         {otherLocales.map((locale) => (

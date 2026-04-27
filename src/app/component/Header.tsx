@@ -4,6 +4,7 @@ import Link from 'next/link';
 import LanguageSwitcher from './LanguageSwitcher';
 import BurgerMenu from './BurgerMenu';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 interface HeaderProps {
   lang: string;
@@ -11,8 +12,18 @@ interface HeaderProps {
 }
 
 const Header = ({ lang, nav }: HeaderProps) => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > window.innerHeight * 0.9);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className='fixed top-0 left-0 z-50 w-full bg-[#09090b] backdrop-blur-md text-white'>
+    <header
+      className={`fixed top-0 left-0 z-50 w-full backdrop-blur-md text-white transition-colors duration-300 ${scrolled ? 'bg-[#0a0a0a]' : 'bg-transparent'}`}
+    >
       <div className='max-w-7xl mx-auto px-6 h-20 flex items-center justify-between'>
         {/* Left — logo */}
         <Link href={`/${lang}#home`} className='shrink-0'>

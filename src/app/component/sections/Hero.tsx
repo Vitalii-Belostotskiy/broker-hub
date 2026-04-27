@@ -24,7 +24,7 @@ export default function Hero({ dict }: { dict: HeroDict }) {
         aria-hidden='true'
         className='absolute inset-0 w-full h-full object-cover hidden md:block pointer-events-none'
       >
-        <source src='/promo_clip.MOV' type='video/mp4' />
+        <source src='/new_promo_clip.mp4' type='video/mp4' />
       </video>
 
       {/* Dark overlay */}
