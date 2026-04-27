@@ -63,7 +63,7 @@ const Header = ({ lang, nav }: HeaderProps) => {
     >
       <div className='max-w-7xl mx-auto px-6 h-20 flex items-center justify-between'>
         {/* Left — logo */}
-        <Link href={`/${lang}#home`} className='shrink-0'>
+        <Link href={`/${lang}#home`} className='shrink-0' onClick={() => setIsActiveId('home')}>
           <Image src='/PropertyHub.png' alt='Property Hub' width={160} height={160} className='h-25 w-auto object-contain' priority />
         </Link>
 
