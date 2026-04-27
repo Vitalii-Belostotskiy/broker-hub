@@ -1,10 +1,11 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import LanguageSwitcher from './LanguageSwitcher';
 import BurgerMenu from './BurgerMenu';
-import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import NavLinkItem from './sections/LinkItem';
 
 interface HeaderProps {
   lang: string;
@@ -13,6 +14,7 @@ interface HeaderProps {
 
 const Header = ({ lang, nav }: HeaderProps) => {
   const [scrolled, setScrolled] = useState(false);
+  const navLinksId = ['home', 'about', 'howItWorks', 'earnings', 'forWho', 'important', 'readyToStart'];
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > window.innerHeight * 0.9);
@@ -32,30 +34,9 @@ const Header = ({ lang, nav }: HeaderProps) => {
 
         {/* Center — nav */}
         <nav className='hidden md:flex items-center gap-8'>
-          <Link href={`/${lang}#home`} className='text-sm text-gray-300 hover:text-white transition-colors'>
-            {nav.home}
-          </Link>
-          <Link href={`/${lang}#about`} className='text-sm text-gray-300 hover:text-white transition-colors'>
-            {nav.about}
-          </Link>
-
-          <Link href={`/${lang}#howItWorks`} className='text-sm text-gray-300 hover:text-white transition-colors'>
-            {nav.howItWorks}
-          </Link>
-          <Link href={`/${lang}#earnings`} className='text-sm text-gray-300 hover:text-white transition-colors'>
-            {nav.earnings}
-          </Link>
-          <Link href={`/${lang}#forWho`} className='text-sm text-gray-300 hover:text-white transition-colors'>
-            {nav.forWho}
-          </Link>
-
-          <Link href={`/${lang}#important`} className='text-sm text-gray-300 hover:text-white transition-colors'>
-            {nav.important}
-          </Link>
-
-          <Link href={`/${lang}#readyToStart`} className='text-sm text-gray-300 hover:text-white transition-colors'>
-            {nav.readyToStart}
-          </Link>
+          {navLinksId.map((id) => (
+            <NavLinkItem key={id} lang={lang} linkId={id} linkName={nav[id as keyof typeof nav]} />
+          ))}
         </nav>
 
         {/* Right — language switcher + burger (mobile) */}
