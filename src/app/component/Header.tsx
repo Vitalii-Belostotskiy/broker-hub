@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -14,12 +14,47 @@ interface HeaderProps {
 
 const Header = ({ lang, nav }: HeaderProps) => {
   const [scrolled, setScrolled] = useState(false);
+  const [isActiveId, setIsActiveId] = useState('home');
+  const clickLockRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   const navLinksId = ['home', 'about', 'howItWorks', 'earnings', 'forWho', 'important', 'readyToStart'];
+
+  const handleNavClick = (id: string) => {
+    setIsActiveId(id);
+    if (clickLockRef.current) clearTimeout(clickLockRef.current);
+    clickLockRef.current = setTimeout(() => {
+      clickLockRef.current = null;
+    }, 3000);
+  };
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > window.innerHeight * 0.9);
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const handleActiveSection = () => {
+      if (clickLockRef.current) return;
+      const activeLine = window.scrollY + window.innerHeight * 0.3;
+      let current = navLinksId[0];
+
+      for (const id of navLinksId) {
+        const el = document.getElementById(id);
+        if (el && el.offsetTop <= activeLine) current = id;
+      }
+
+      const maxScroll = document.body.scrollHeight - window.innerHeight;
+      const lastSection = navLinksId[navLinksId.length - 1];
+
+      if (window.scrollY >= maxScroll - 1) current = lastSection;
+
+      setIsActiveId(current);
+    };
+
+    handleActiveSection();
+    window.addEventListener('scroll', handleActiveSection, { passive: true });
+    return () => window.removeEventListener('scroll', handleActiveSection);
   }, []);
 
   return (
@@ -35,7 +70,14 @@ const Header = ({ lang, nav }: HeaderProps) => {
         {/* Center — nav */}
         <nav className='hidden md:flex items-center gap-8'>
           {navLinksId.map((id) => (
-            <NavLinkItem key={id} lang={lang} linkId={id} linkName={nav[id as keyof typeof nav]} />
+            <NavLinkItem
+              key={id}
+              lang={lang}
+              linkId={id}
+              linkName={nav[id as keyof typeof nav]}
+              isActive={isActiveId === id}
+              onClick={() => handleNavClick(id)}
+            />
           ))}
         </nav>
 
