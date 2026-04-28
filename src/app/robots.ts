@@ -1,15 +1,14 @@
-import type { MetadataRoute } from 'next'
+import type { MetadataRoute } from 'next';
 
-// TODO: replace with actual domain when ready
-const BASE_URL = 'https://propertyhub.com'
+const BASE_URL = 'https://luxury-hub-phi.vercel.app';
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
-      // allow: '/',
-      disallow: '/'
+      allow: '/',
+      // disallow: '/',
     },
     sitemap: `${BASE_URL}/sitemap.xml`,
-  }
+  };
 }
