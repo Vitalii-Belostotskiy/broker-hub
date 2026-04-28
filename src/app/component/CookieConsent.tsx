@@ -15,6 +15,7 @@ interface Props {
 }
 
 const GA_ID = 'G-ZLV4LT44B0';
+const GA_ID_PAID = 'AW-18124580054';
 const STORAGE_KEY = 'cookie_consent';
 
 type Consent = 'accepted' | 'declined' | 'pending';
@@ -56,6 +57,7 @@ export default function CookieConsent({ lang, texts }: Props) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '${GA_ID}');
+              gtag('config', '${GA_ID_PAID}');
             `}
           </Script>
         </>
