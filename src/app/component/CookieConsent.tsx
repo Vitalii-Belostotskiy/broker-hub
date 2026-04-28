@@ -32,7 +32,9 @@ function getServerSnapshot(): null {
 
 function subscribe(listener: () => void) {
   listeners.push(listener);
-  return () => { listeners = listeners.filter((l) => l !== listener); };
+  return () => {
+    listeners = listeners.filter((l) => l !== listener);
+  };
 }
 
 function saveConsent(value: 'accepted' | 'declined') {
@@ -61,7 +63,7 @@ export default function CookieConsent({ lang, texts }: Props) {
 
       {consent === 'pending' && (
         <div className='fixed bottom-0 left-0 right-0 z-[100] p-4 sm:p-6'>
-          <div className='max-w-2xl mx-auto bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-5 shadow-2xl flex flex-col sm:flex-row items-start sm:items-center gap-4'>
+          <div className='max-w-2xl mx-auto bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-5 shadow-2xl flex flex-col sm:flex-row items-center gap-4'>
             <p className='text-zinc-300 text-sm leading-relaxed flex-1'>
               {texts.message}{' '}
               <Link href={`/${lang}/privacy`} className='text-amber-400 hover:text-amber-300 underline underline-offset-2 transition-colors'>
