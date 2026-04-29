@@ -55,7 +55,7 @@ const Header = ({ lang, nav }: HeaderProps) => {
     handleActiveSection();
     window.addEventListener('scroll', handleActiveSection, { passive: true });
     return () => window.removeEventListener('scroll', handleActiveSection);
-  }, []);
+  }, [navLinksId]);
 
   return (
     <header
