@@ -7,6 +7,25 @@ import { FaChevronDown } from 'react-icons/fa6';
 
 const locales = ['en', 'ru', 'uk', 'ar', 'de', 'es', 'fr', 'he', 'hi', 'it', 'ja', 'ko', 'nl', 'sv', 'tw', 'zh'] as const;
 
+const flagCode: Record<typeof locales[number], string> = {
+  en: 'gb',
+  ru: 'ru',
+  uk: 'ua',
+  ar: 'sa',
+  de: 'de',
+  es: 'es',
+  fr: 'fr',
+  he: 'il',
+  hi: 'in',
+  it: 'it',
+  ja: 'jp',
+  ko: 'kr',
+  nl: 'nl',
+  sv: 'se',
+  tw: 'tw',
+  zh: 'cn',
+};
+
 interface Props {
   currentLocale: string;
 }
@@ -36,32 +55,36 @@ export default function LanguageSwitcher({ currentLocale }: Props) {
     return segments.join('/') || `/${locale}`;
   };
 
+  const code = flagCode[currentLocale as typeof locales[number]] ?? 'gb';
+
   return (
     <div ref={ref} className='relative'>
       <button
         onClick={() => setOpen((v) => !v)}
-        className='flex items-start gap-3 text-md font-semibold text-white uppercase tracking-widest hover:text-amber-400 transition-colors'
+        className='flex items-center gap-2 text-sm font-semibold text-white uppercase tracking-widest hover:text-amber-400 transition-colors'
         aria-expanded={open}
         aria-haspopup='listbox'
       >
+        <span className={`fi fi-${code} rounded-sm`} />
         {currentLocale}
-        <FaChevronDown className={`w-4 h-4 transition-transform duration-200 ${open ? 'rotate-180' : ''}`} />
+        <FaChevronDown className={`w-3 h-3 transition-transform duration-200 ${open ? 'rotate-180' : ''}`} />
       </button>
 
       {open && (
         <ul
           role='listbox'
-          className='absolute right-0 top-full mt-2 w-20 max-h-60 overflow-y-auto bg-zinc-900 border border-zinc-700 rounded-xl shadow-2xl py-1 z-[200] scrollbar-hide'
+          className='absolute right-0 top-full mt-2 w-28 max-h-60 overflow-y-auto bg-zinc-900 border border-zinc-700 rounded-xl shadow-2xl py-1 z-[200] scrollbar-hide'
         >
           {locales.map((locale) => (
             <li key={locale} role='option' aria-selected={locale === currentLocale}>
               <Link
                 href={getLocalePath(locale)}
                 onClick={() => setOpen(false)}
-                className={`block px-4 py-2 text-sm uppercase tracking-widest text-center transition-colors ${
+                className={`flex items-center gap-3 px-4 py-2 text-sm uppercase tracking-widest transition-colors ${
                   locale === currentLocale ? 'text-amber-400 bg-zinc-800' : 'text-zinc-300 hover:text-white hover:bg-zinc-800'
                 }`}
               >
+                <span className={`fi fi-${flagCode[locale]} rounded-sm`} />
                 {locale}
               </Link>
             </li>
