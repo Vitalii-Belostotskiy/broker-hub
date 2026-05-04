@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-const locales = ['en', 'ru', 'uk', 'fr', 'it', 'es', 'zh', 'nl', 'ja', 'ko', 'he', 'ar']
+const locales = ['en', 'ru', 'uk', 'fr', 'it', 'es', 'zh', 'nl', 'ja', 'ko', 'he', 'ar', 'de', 'sv', 'hi', 'tw']
 const rtlLocales = ['he', 'ar']
 const defaultLocale = 'en'
 

@@ -8,7 +8,7 @@ import Footer from '../component/Footer';
 
 const BASE_URL = 'https://luxury-hub-phi.vercel.app';
 
-const allLocales: Locale[] = ['en', 'ru', 'uk', 'fr', 'it', 'es', 'zh', 'nl', 'ja', 'ko', 'he', 'ar'];
+const allLocales: Locale[] = ['en', 'ru', 'uk', 'fr', 'it', 'es', 'zh', 'nl', 'ja', 'ko', 'he', 'ar', 'de', 'sv', 'hi', 'tw'];
 
 const meta: Record<Locale, { title: string; description: string }> = {
   en: {
@@ -71,6 +71,26 @@ const meta: Record<Locale, { title: string; description: string }> = {
     description:
       'احصل على وصول إلى الأسعار الحصرية والمكافآت والصفقات من مطوري العقارات. اكسب رسوم الإحالة من خلال التوصية بالعقارات عبر شبكة شركاء Property Hub.',
   },
+  de: {
+    title: 'Property Hub — Exklusive Immobilien-Partnerplattform',
+    description:
+      'Erhalten Sie Zugang zu exklusiven Preisen, Boni und Angeboten von Immobilienentwicklern. Verdienen Sie Empfehlungsgebühren durch das Property Hub Partnernetzwerk.',
+  },
+  sv: {
+    title: 'Property Hub — Exklusiv Fastighetspartnerplattform',
+    description:
+      'Få tillgång till exklusiva priser, bonusar och erbjudanden från fastighetsutvecklare. Tjäna referralersättningar via Property Hub partnernätverket.',
+  },
+  hi: {
+    title: 'Property Hub — एक्सक्लूसिव रियल एस्टेट पार्टनर प्लेटफ़ॉर्म',
+    description:
+      'रियल एस्टेट डेवलपर्स से एक्सक्लूसिव कीमतें, बोनस और डील प्राप्त करें। Property Hub पार्टनर नेटवर्क के माध्यम से संपत्तियों की सिफारिश करके रेफरल शुल्क कमाएं।',
+  },
+  tw: {
+    title: 'Property Hub — 獨家房地產合作夥伴平台',
+    description:
+      '獲取來自房地產開發商的獨家價格、獎金和優惠。通過Property Hub合作夥伴網絡推薦房產並賺取佣金。',
+  },
 };
 
 const ogLocale: Record<Locale, string> = {
@@ -86,6 +106,10 @@ const ogLocale: Record<Locale, string> = {
   ko: 'ko_KR',
   he: 'he_IL',
   ar: 'ar_AE',
+  de: 'de_DE',
+  sv: 'sv_SE',
+  hi: 'hi_IN',
+  tw: 'zh_TW',
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

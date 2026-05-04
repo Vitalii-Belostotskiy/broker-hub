@@ -1,0 +1,124 @@
+{
+  "header": {
+    "nav": {
+      "home": "Hem",
+      "about": "Om oss",
+      "howItWorks": "Hur det fungerar",
+      "important": "Viktigt",
+      "earnings": "Intäkter",
+      "forWho": "För vem",
+      "readyToStart": "Redo att börja"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Property Hub. Alla rättigheter förbehållna.",
+    "privacyPolicy": "Integritetspolicy"
+  },
+  "cookie": {
+    "message": "Vi använder cookies för att analysera trafik och förbättra din upplevelse.",
+    "accept": "Acceptera",
+    "decline": "Avvisa",
+    "learnMore": "Läs mer"
+  },
+  "privacy": {
+    "back": "Tillbaka till huvudsidan",
+    "title": "Integritetspolicy",
+    "updated": "Senast uppdaterad: april 2025",
+    "sections": [
+      {
+        "heading": "1. Allmänt",
+        "body": "Denna integritetspolicy förklarar hur Property Hub (\"vi\", \"vår\") hanterar information när du besöker vår webbplats. Vi samlar inte in personuppgifter via formulär eller konton. Vi använder dock analysverktyg från tredje part som automatiskt kan samla in vissa tekniska uppgifter."
+      },
+      {
+        "heading": "2. Google Analytics",
+        "body": "Vi använder Google Analytics för att förstå hur besökare interagerar med vår webbplats. Google Analytics samlar in anonymiserad information som:\n• Din IP-adress (anonymiserad)\n• Webbläsartyp och -version\n• Besökta sidor och tid som spenderas\n• Hänvisande webbplats\n\nDessa uppgifter behandlas av Google LLC och omfattas av Googles integritetspolicy (policies.google.com). Vi har inte tillgång till personligt identifierbar information via Analytics."
+      },
+      {
+        "heading": "3. Cookies",
+        "body": "Google Analytics ställer in följande cookies:\n• _ga — särskiljer unika användare, går ut efter 2 år\n• _ga_* — underhåller sessionstillstånd, går ut efter 2 år\n\nDessa cookies ställs bara in efter att du gett ditt samtycke via cookie-bannern. Du kan när som helst återkalla ditt samtycke genom att rensa dina webbläsar-cookies."
+      },
+      {
+        "heading": "4. Dina val",
+        "body": "Du kan avböja cookie-spårning via bannern som visas vid ditt första besök. Du kan också när som helst välja bort Google Analytics-spårning med hjälp av Google Analytics opt-out-webbläsartillägget på tools.google.com/dlpage/gaoptout."
+      },
+      {
+        "heading": "5. Datalagring",
+        "body": "Analysdata lagras av Google i upp till 26 månader. Vi lagrar inga personuppgifter på våra egna servrar."
+      },
+      {
+        "heading": "6. Ändringar av denna policy",
+        "body": "Vi kan uppdatera denna integritetspolicy från tid till annan. Ändringar publiceras på denna sida med ett uppdaterat datum."
+      },
+      {
+        "heading": "7. Kontakt",
+        "body": "Om du har frågor om denna integritetspolicy, kontakta oss via Property Hub-plattformen."
+      }
+    ]
+  },
+  "hero": {
+    "title": "Tillgång till exklusiva fastighetserbjudanden",
+    "subtitle": "Specialpriser, bonusar och rabatter från utvecklare — via Property Hub partnerplattform.",
+    "cta": "Få tillgång",
+    "badges": ["Specialpriser", "Bonusar och rabatter", "Betalningsplaner", "Riskfritt"]
+  },
+  "about": {
+    "label": "Om plattformen",
+    "paragraphs": [
+      "Property Hub — är en partnerreferralplattform inom fastighetssektorn.",
+      "Vi erhåller särskilda (stängda) villkor från utvecklare och öppnar dem för våra partners.",
+      "Du rekommenderar de bästa fastigheterna till dina kunder på samma villkor som vanligtvis inte är tillgängliga på den öppna marknaden."
+    ],
+    "cards": [
+      "Du behöver inte vara mäklare. Din roll — är en rekommendation.",
+      "Affären hanteras helt av utvecklarens försäljningsavdelning."
+    ]
+  },
+  "howItWorks": {
+    "title": "Hur det fungerar",
+    "steps": [
+      "Du rekommenderar en fastighet eller ett projekt och förklarar dess värde för kunden",
+      "Du skickar kunden din personliga referrallänk eller kod för att lämna in en förfrågan",
+      "Kunden lämnar in en förfrågan — systemet registrerar vem som hänvisade dem",
+      "Utvecklarens försäljningsavdelning kontaktar kunden och hanterar affären helt: förhandlingar, dokument, support",
+      "När affären är avslutad får du din referralersättning"
+    ]
+  },
+  "earnings": {
+    "title": "Hur mycket kan du tjäna",
+    "tiers": [
+      { "rate": "4%", "level": "Nivå 0", "desc": "av affärsvärdet, för affärer som du avslutade direkt." },
+      { "rate": "1%", "level": "Nivå 1–2", "desc": "av partneraffärer från personer du bjöd in." }
+    ],
+    "note": "Satserna kan variera beroende på projektet. Avgifter betalas efter framgångsrikt avslutad affär.",
+    "whyTitle": "Varför vi inte konkurrerar med partners",
+    "whyPoints": [
+      "Vi har ingen direktförsäljning — vi tar inte dina kunder.",
+      "För att få tillgång måste kunden gå via din referrallänk och lämna in en förfrågan.",
+      "Utan länk eller kod kan kunden inte använda dessa villkor.",
+      "Nya partners kan bara registrera sig via inbjudan.",
+      "Detta system skyddar dig från kringgående och kundförlust."
+    ]
+  },
+  "forWho": {
+    "title": "Vem är denna plattform för",
+    "cards": [
+      "Om du har personer som är intresserade av att köpa fastigheter (vänner, nätverk, sociala medier, kunder)",
+      "Om du inte vill bli mäklare men vill tjäna på hänvisningar",
+      "Om du behöver en enkel process: hänvisning → förfrågan → affär → belöning"
+    ]
+  },
+  "important": {
+    "title": "Viktigt",
+    "items": [
+      "Detta är inte ett personal- eller anställningskontrakt.",
+      "Vi lovar ingen fast inkomst — betalningar görs bara efter en framgångsrik affär.",
+      "Ta inte emot pengar från kunder — vi är inte en fond, mäklarfirma eller investeringsrådgivare.",
+      "Du rekommenderar och hänvisar — allt annat arbete görs av utvecklarens avdelning och licensierade specialister."
+    ]
+  },
+  "cta": {
+    "title": "Redo att börja?",
+    "subtitle": "Få tillgång till projekt och börja tjäna på hänvisningar idag",
+    "button": "Bli partner"
+  }
+}

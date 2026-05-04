@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
 import { FaChevronDown } from 'react-icons/fa6';
 
-const locales = ['en', 'ru', 'uk', 'ar', 'es', 'fr', 'he', 'it', 'ja', 'ko', 'nl', 'zh'] as const;
+const locales = ['en', 'ru', 'uk', 'ar', 'de', 'es', 'fr', 'he', 'hi', 'it', 'ja', 'ko', 'nl', 'sv', 'tw', 'zh'] as const;
 
 interface Props {
   currentLocale: string;

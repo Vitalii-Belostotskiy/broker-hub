@@ -1,0 +1,124 @@
+{
+  "header": {
+    "nav": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "howItWorks": "Wie es funktioniert",
+      "important": "Wichtig",
+      "earnings": "Verdienste",
+      "forWho": "Für wen",
+      "readyToStart": "Bereit anzufangen"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Property Hub. Alle Rechte vorbehalten.",
+    "privacyPolicy": "Datenschutzrichtlinie"
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um den Datenverkehr zu analysieren und Ihre Erfahrung zu verbessern.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "learnMore": "Mehr erfahren"
+  },
+  "privacy": {
+    "back": "Zurück zur Hauptseite",
+    "title": "Datenschutzrichtlinie",
+    "updated": "Zuletzt aktualisiert: April 2025",
+    "sections": [
+      {
+        "heading": "1. Allgemeines",
+        "body": "Diese Datenschutzrichtlinie erklärt, wie Property Hub (\"wir\", \"unser\") mit Informationen umgeht, wenn Sie unsere Website besuchen. Wir erheben keine personenbezogenen Daten über Formulare oder Konten. Wir verwenden jedoch Analyse-Tools von Drittanbietern, die möglicherweise automatisch bestimmte technische Daten erfassen."
+      },
+      {
+        "heading": "2. Google Analytics",
+        "body": "Wir verwenden Google Analytics, um zu verstehen, wie Besucher mit unserer Website interagieren. Google Analytics erfasst anonymisierte Informationen wie:\n• Ihre IP-Adresse (anonymisiert)\n• Browsertyp und -version\n• Besuchte Seiten und Verweildauer\n• Verweisende Website\n\nDiese Daten werden von Google LLC verarbeitet und unterliegen der Datenschutzrichtlinie von Google (policies.google.com). Wir haben keinen Zugriff auf personenbezogene Informationen über Analytics."
+      },
+      {
+        "heading": "3. Cookies",
+        "body": "Google Analytics setzt folgende Cookies:\n• _ga — unterscheidet eindeutige Nutzer, läuft nach 2 Jahren ab\n• _ga_* — behält den Sitzungsstatus bei, läuft nach 2 Jahren ab\n\nDiese Cookies werden nur gesetzt, nachdem Sie Ihre Einwilligung über das Cookie-Banner gegeben haben. Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie Ihre Browser-Cookies löschen."
+      },
+      {
+        "heading": "4. Ihre Wahlmöglichkeiten",
+        "body": "Sie können das Cookie-Tracking über das Banner ablehnen, das bei Ihrem ersten Besuch angezeigt wird. Sie können auch jederzeit das Google Analytics-Tracking über das Google Analytics Opt-out Browser Add-on unter tools.google.com/dlpage/gaoptout deaktivieren."
+      },
+      {
+        "heading": "5. Datenspeicherung",
+        "body": "Analysedaten werden von Google bis zu 26 Monate aufbewahrt. Wir speichern keine personenbezogenen Daten auf unseren eigenen Servern."
+      },
+      {
+        "heading": "6. Änderungen dieser Richtlinie",
+        "body": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Datum veröffentlicht."
+      },
+      {
+        "heading": "7. Kontakt",
+        "body": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte über die Property Hub Plattform."
+      }
+    ]
+  },
+  "hero": {
+    "title": "Zugang zu exklusiven Immobilienangeboten",
+    "subtitle": "Sonderpreise, Boni und Rabatte von Entwicklern — über die Property Hub Partnerplattform.",
+    "cta": "Zugang erhalten",
+    "badges": ["Sonderpreise", "Boni und Rabatte", "Ratenpläne", "Risikolos"]
+  },
+  "about": {
+    "label": "Über die Plattform",
+    "paragraphs": [
+      "Property Hub — ist eine Partner-Empfehlungsplattform im Immobilienbereich.",
+      "Wir erhalten besondere (geschlossene) Konditionen von Entwicklern und öffnen sie für unsere Partner.",
+      "Sie empfehlen die besten Immobilien an Ihre Kunden zu denselben Konditionen, die auf dem offenen Markt normalerweise nicht verfügbar sind."
+    ],
+    "cards": [
+      "Sie müssen kein Makler sein. Ihre Rolle — ist eine Empfehlung.",
+      "Das Geschäft wird vollständig von der Verkaufsabteilung des Entwicklers abgewickelt."
+    ]
+  },
+  "howItWorks": {
+    "title": "Wie es funktioniert",
+    "steps": [
+      "Sie empfehlen eine Immobilie oder ein Projekt und erklären dem Kunden deren Wert",
+      "Sie senden dem Kunden Ihren persönlichen Empfehlungslink oder Code zur Einreichung einer Anfrage",
+      "Der Kunde reicht eine Anfrage ein — das System erfasst, wer ihn empfohlen hat",
+      "Die Verkaufsabteilung des Entwicklers kontaktiert den Kunden und wickelt das Geschäft vollständig ab: Verhandlungen, Dokumente, Support",
+      "Sobald das Geschäft abgeschlossen ist, erhalten Sie Ihre Empfehlungsgebühr"
+    ]
+  },
+  "earnings": {
+    "title": "Wie viel können Sie verdienen",
+    "tiers": [
+      { "rate": "4%", "level": "Stufe 0", "desc": "des Geschäftswerts, für direkt abgeschlossene Geschäfte." },
+      { "rate": "1%", "level": "Stufe 1–2", "desc": "der Partnergeschäfte von Personen, die Sie eingeladen haben." }
+    ],
+    "note": "Die Sätze können je nach Projekt variieren. Gebühren werden nach erfolgreichem Geschäftsabschluss gezahlt.",
+    "whyTitle": "Warum wir nicht mit Partnern konkurrieren",
+    "whyPoints": [
+      "Wir haben keinen Direktvertrieb — wir nehmen Ihnen keine Kunden weg.",
+      "Um Zugang zu erhalten, muss der Kunde über Ihren Empfehlungslink gehen und eine Anfrage stellen.",
+      "Ohne Link oder Code kann der Kunde diese Konditionen nicht nutzen.",
+      "Neue Partner können sich nur auf Einladung registrieren.",
+      "Dieses System schützt Sie vor Umgehung und Kundenverlust."
+    ]
+  },
+  "forWho": {
+    "title": "Für wen ist diese Plattform",
+    "cards": [
+      "Wenn Sie Personen haben, die am Kauf von Immobilien interessiert sind (Freunde, Netzwerke, Social Media, Kunden)",
+      "Wenn Sie kein Makler werden möchten, aber durch Empfehlungen verdienen möchten",
+      "Wenn Sie einen einfachen Prozess benötigen: Empfehlung → Anfrage → Geschäft → Belohnung"
+    ]
+  },
+  "important": {
+    "title": "Wichtig",
+    "items": [
+      "Dies ist kein Personal- oder Arbeitsvertrag.",
+      "Wir versprechen kein festes Einkommen — Zahlungen erfolgen nur nach erfolgreichem Geschäftsabschluss.",
+      "Nehmen Sie kein Geld von Kunden — wir sind kein Fonds, keine Maklerfirma oder Anlageberater.",
+      "Sie empfehlen und verweisen — alle anderen Arbeiten werden von der Entwicklerabteilung und lizenzierten Spezialisten durchgeführt."
+    ]
+  },
+  "cta": {
+    "title": "Bereit anzufangen?",
+    "subtitle": "Greifen Sie auf Projekte zu und beginnen Sie heute mit dem Verdienen durch Empfehlungen",
+    "button": "Partner werden"
+  }
+}

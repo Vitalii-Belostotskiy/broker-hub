@@ -11,6 +11,10 @@ const dictionaries = {
   ko: () => import('./dictionaries/ko.json').then((m) => m.default),
   he: () => import('./dictionaries/he.json').then((m) => m.default),
   ar: () => import('./dictionaries/ar.json').then((m) => m.default),
+  de: () => import('./dictionaries/de.json').then((m) => m.default),
+  sv: () => import('./dictionaries/sv.json').then((m) => m.default),
+  hi: () => import('./dictionaries/hi.json').then((m) => m.default),
+  tw: () => import('./dictionaries/tw.json').then((m) => m.default),
 }
 
 export type Locale = keyof typeof dictionaries
