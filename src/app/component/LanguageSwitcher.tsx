@@ -3,8 +3,9 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
+import { FaChevronDown } from 'react-icons/fa6';
 
-const locales = ['en', 'ru', 'uk'] as const;
+const locales = ['en', 'ru', 'uk', 'ar', 'es', 'fr', 'he', 'it', 'ja', 'ko', 'nl', 'zh'] as const;
 
 interface Props {
   currentLocale: string;
@@ -12,13 +13,13 @@ interface Props {
 
 export default function LanguageSwitcher({ currentLocale }: Props) {
   const pathname = usePathname();
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleOutside = (e: MouseEvent | TouchEvent) => {
       if (ref.current && !ref.current.contains(e.target as Node)) {
-        setMobileOpen(false);
+        setOpen(false);
       }
     };
     document.addEventListener('mousedown', handleOutside);
@@ -35,67 +36,38 @@ export default function LanguageSwitcher({ currentLocale }: Props) {
     return segments.join('/') || `/${locale}`;
   };
 
-  const otherLocales = locales.filter((l) => l !== currentLocale);
-
   return (
-    <div ref={ref} className='relative flex items-center group'>
-      {/* Desktop (md+): slide in from right on hover */}
-      <div
-        className='
-          hidden md:flex
-          absolute right-full top-1/2 -translate-y-1/2
-          items-center gap-3 pr-4
-          opacity-0 translate-x-2
-          group-hover:opacity-100 group-hover:translate-x-0
-          transition-all duration-200 ease-out
-          pointer-events-none group-hover:pointer-events-auto
-          whitespace-nowrap
-        '
-      >
-        {otherLocales.map((locale) => (
-          <Link
-            key={locale}
-            href={getLocalePath(locale)}
-            className='text-md font-medium text-gray-400 hover:text-white uppercase tracking-widest transition-colors'
-          >
-            {locale}
-          </Link>
-        ))}
-      </div>
-
-      {/* Current locale — button for mobile tap, decorative on desktop */}
+    <div ref={ref} className='relative'>
       <button
-        onClick={() => setMobileOpen((v) => !v)}
-        className='text-md font-semibold text-white uppercase tracking-widest select-none md:cursor-default'
-        aria-expanded={mobileOpen}
+        onClick={() => setOpen((v) => !v)}
+        className='flex items-start gap-3 text-md font-semibold text-white uppercase tracking-widest hover:text-amber-400 transition-colors'
+        aria-expanded={open}
         aria-haspopup='listbox'
       >
         {currentLocale}
+        <FaChevronDown className={`w-4 h-4 transition-transform duration-200 ${open ? 'rotate-180' : ''}`} />
       </button>
 
-      {/* Mobile (< md): dropdown top → bottom on tap */}
-      <div
-        aria-hidden={!mobileOpen}
-        className={`
-          md:hidden
-          absolute right-full top-1/2 -translate-y-1/2
-          flex items-end gap-2 pr-2
-          
-          transition-all duration-200 ease-out
-          ${mobileOpen ? 'opacity-100 translate-x-0 pointer-events-auto' : 'opacity-0 translate-x-1 pointer-events-none'}
-        `}
-      >
-        {otherLocales.map((locale) => (
-          <Link
-            key={locale}
-            href={getLocalePath(locale)}
-            onClick={() => setMobileOpen(false)}
-            className='text-md font-medium text-gray-300 hover:text-white uppercase tracking-widest transition-colors py-1'
-          >
-            {locale}
-          </Link>
-        ))}
-      </div>
+      {open && (
+        <ul
+          role='listbox'
+          className='absolute right-0 top-full mt-2 w-20 max-h-60 overflow-y-auto bg-zinc-900 border border-zinc-700 rounded-xl shadow-2xl py-1 z-[200] scrollbar-hide'
+        >
+          {locales.map((locale) => (
+            <li key={locale} role='option' aria-selected={locale === currentLocale}>
+              <Link
+                href={getLocalePath(locale)}
+                onClick={() => setOpen(false)}
+                className={`block px-4 py-2 text-sm uppercase tracking-widest text-center transition-colors ${
+                  locale === currentLocale ? 'text-amber-400 bg-zinc-800' : 'text-zinc-300 hover:text-white hover:bg-zinc-800'
+                }`}
+              >
+                {locale}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

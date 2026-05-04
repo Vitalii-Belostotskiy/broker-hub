@@ -1,0 +1,124 @@
+{
+  "header": {
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "howItWorks": "Comment ça marche",
+      "important": "Important",
+      "earnings": "Revenus",
+      "forWho": "Pour qui",
+      "readyToStart": "Prêt à commencer"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Property Hub. Tous droits réservés.",
+    "privacyPolicy": "Politique de confidentialité"
+  },
+  "cookie": {
+    "message": "Nous utilisons des cookies pour analyser le trafic et améliorer votre expérience.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "learnMore": "En savoir plus"
+  },
+  "privacy": {
+    "back": "Retour à la page principale",
+    "title": "Politique de confidentialité",
+    "updated": "Dernière mise à jour : avril 2025",
+    "sections": [
+      {
+        "heading": "1. Général",
+        "body": "Cette politique de confidentialité explique comment Property Hub (\"nous\", \"notre\") gère les informations lorsque vous visitez notre site web. Nous ne collectons pas de données personnelles via des formulaires ou des comptes. Cependant, nous utilisons des outils d'analyse tiers qui peuvent collecter automatiquement certaines données techniques."
+      },
+      {
+        "heading": "2. Google Analytics",
+        "body": "Nous utilisons Google Analytics pour comprendre comment les visiteurs interagissent avec notre site. Google Analytics collecte des informations anonymisées telles que :\n• Votre adresse IP (anonymisée)\n• Type et version du navigateur\n• Pages visitées et temps passé\n• Site référent\n\nCes données sont traitées par Google LLC et soumises à la politique de confidentialité de Google (policies.google.com). Nous n'avons pas accès à des informations personnellement identifiables via Analytics."
+      },
+      {
+        "heading": "3. Cookies",
+        "body": "Google Analytics définit les cookies suivants :\n• _ga — distingue les utilisateurs uniques, expire après 2 ans\n• _ga_* — maintient l'état de la session, expire après 2 ans\n\nCes cookies ne sont définis qu'après votre consentement via la bannière de cookies. Vous pouvez retirer votre consentement à tout moment en effaçant les cookies de votre navigateur."
+      },
+      {
+        "heading": "4. Vos choix",
+        "body": "Vous pouvez refuser le suivi des cookies via la bannière affichée lors de votre première visite. Vous pouvez également vous désinscrire du suivi Google Analytics à tout moment en utilisant le module complémentaire de navigateur disponible sur tools.google.com/dlpage/gaoptout."
+      },
+      {
+        "heading": "5. Conservation des données",
+        "body": "Les données analytiques sont conservées par Google pendant 26 mois maximum. Nous ne stockons aucune donnée personnelle sur nos propres serveurs."
+      },
+      {
+        "heading": "6. Modifications de cette politique",
+        "body": "Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. Les modifications seront publiées sur cette page avec une date mise à jour."
+      },
+      {
+        "heading": "7. Contact",
+        "body": "Si vous avez des questions sur cette politique de confidentialité, veuillez nous contacter via la plateforme Property Hub."
+      }
+    ]
+  },
+  "hero": {
+    "title": "Accès à des offres immobilières exclusives",
+    "subtitle": "Prix spéciaux, bonus et remises des promoteurs — via la plateforme partenaire Property Hub.",
+    "cta": "Obtenir l'accès",
+    "badges": ["Prix spéciaux", "Bonus et remises", "Plans d'échelonnement", "Sans risque"]
+  },
+  "about": {
+    "label": "À propos de la plateforme",
+    "paragraphs": [
+      "Property Hub — est une plateforme de parrainage partenaire dans le secteur immobilier.",
+      "Nous obtenons des conditions spéciales (fermées) des promoteurs et les ouvrons à nos partenaires.",
+      "Vous recommandez les meilleures propriétés à vos clients dans les mêmes conditions qui sont généralement indisponibles sur le marché ouvert."
+    ],
+    "cards": [
+      "Vous n'avez pas besoin d'être courtier. Votre rôle — est une recommandation.",
+      "L'accord est entièrement géré par le service commercial du promoteur."
+    ]
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "steps": [
+      "Vous recommandez une propriété ou un projet et expliquez sa valeur au client",
+      "Vous envoyez au client votre lien de parrainage personnel ou un code pour soumettre une demande",
+      "Le client soumet une demande — le système enregistre qui l'a parrainé",
+      "Le service commercial du promoteur contacte le client et gère entièrement l'accord : négociations, documents, assistance",
+      "Une fois l'accord conclu, vous recevez votre commission de parrainage"
+    ]
+  },
+  "earnings": {
+    "title": "Combien pouvez-vous gagner",
+    "tiers": [
+      { "rate": "4%", "level": "Niveau 0", "desc": "de la valeur de l'accord, pour les accords conclus directement." },
+      { "rate": "1%", "level": "Niveau 1–2", "desc": "des accords des partenaires des personnes que vous avez invitées." }
+    ],
+    "note": "Les taux peuvent varier selon le projet. Les honoraires sont payés après la clôture réussie de l'accord.",
+    "whyTitle": "Pourquoi nous ne sommes pas en concurrence avec les partenaires",
+    "whyPoints": [
+      "Nous n'avons pas de ventes directes — nous ne prenons pas vos clients.",
+      "Pour obtenir l'accès, le client doit passer par votre lien de parrainage et soumettre une demande.",
+      "Sans lien ou code, le client ne peut pas bénéficier de ces conditions.",
+      "Les nouveaux partenaires ne peuvent s'inscrire que sur invitation.",
+      "Ce système vous protège contre le contournement et la perte de clients."
+    ]
+  },
+  "forWho": {
+    "title": "À qui s'adresse cette plateforme",
+    "cards": [
+      "Si vous avez des personnes intéressées par l'achat immobilier (amis, réseaux, réseaux sociaux, clients)",
+      "Si vous ne voulez pas devenir courtier, mais voulez gagner sur les parrainages",
+      "Si vous avez besoin d'un processus simple : parrainage → demande → accord → récompense"
+    ]
+  },
+  "important": {
+    "title": "Important",
+    "items": [
+      "Ce n'est pas un contrat de recrutement ou d'emploi.",
+      "Nous ne promettons pas un revenu fixe — les paiements sont effectués uniquement après un accord réussi.",
+      "Ne prenez pas d'argent des clients — nous ne sommes pas un fonds, un courtage ou un conseiller en investissement.",
+      "Vous recommandez et parrainez — tout autre travail est effectué par le service du promoteur et des spécialistes agréés."
+    ]
+  },
+  "cta": {
+    "title": "Prêt à commencer ?",
+    "subtitle": "Accédez aux projets et commencez à gagner sur les parrainages aujourd'hui",
+    "button": "Devenir partenaire"
+  }
+}

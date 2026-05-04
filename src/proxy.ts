@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-const locales = ['en', 'ru', 'uk']
+const locales = ['en', 'ru', 'uk', 'fr', 'it', 'es', 'zh', 'nl', 'ja', 'ko', 'he', 'ar']
+const rtlLocales = ['he', 'ar']
 const defaultLocale = 'en'
 
 function getLocale(request: NextRequest): string {
@@ -19,11 +20,21 @@ export function proxy(request: NextRequest) {
   const pathnameHasLocale = locales.some(
     (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
   )
-  if (pathnameHasLocale) return
 
-  const locale = getLocale(request)
-  request.nextUrl.pathname = `/${locale}${pathname}`
-  return NextResponse.redirect(request.nextUrl)
+  if (!pathnameHasLocale) {
+    const locale = getLocale(request)
+    request.nextUrl.pathname = `/${locale}${pathname}`
+    return NextResponse.redirect(request.nextUrl)
+  }
+
+  const lang = pathname.split('/')[1] || defaultLocale
+  const dir = rtlLocales.includes(lang) ? 'rtl' : 'ltr'
+
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-lang', lang)
+  requestHeaders.set('x-dir', dir)
+
+  return NextResponse.next({ request: { headers: requestHeaders } })
 }
 
 export const config = {

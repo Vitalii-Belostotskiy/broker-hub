@@ -1,0 +1,124 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "Over ons",
+      "howItWorks": "Hoe het werkt",
+      "important": "Belangrijk",
+      "earnings": "Verdiensten",
+      "forWho": "Voor wie",
+      "readyToStart": "Klaar om te beginnen"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Property Hub. Alle rechten voorbehouden.",
+    "privacyPolicy": "Privacybeleid"
+  },
+  "cookie": {
+    "message": "We gebruiken cookies om verkeer te analyseren en uw ervaring te verbeteren.",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "learnMore": "Meer informatie"
+  },
+  "privacy": {
+    "back": "Terug naar de hoofdpagina",
+    "title": "Privacybeleid",
+    "updated": "Laatste update: april 2025",
+    "sections": [
+      {
+        "heading": "1. Algemeen",
+        "body": "Dit privacybeleid legt uit hoe Property Hub (\"wij\", \"ons\") informatie verwerkt wanneer u onze website bezoekt. We verzamelen geen persoonlijke gegevens via formulieren of accounts. We gebruiken echter analysetools van derden die automatisch bepaalde technische gegevens kunnen verzamelen."
+      },
+      {
+        "heading": "2. Google Analytics",
+        "body": "We gebruiken Google Analytics om te begrijpen hoe bezoekers met onze website omgaan. Google Analytics verzamelt geanonimiseerde informatie zoals:\n• Uw IP-adres (geanonimiseerd)\n• Browsertype en -versie\n• Bezochte pagina's en bestede tijd\n• Verwijzende website\n\nDeze gegevens worden verwerkt door Google LLC en zijn onderworpen aan het privacybeleid van Google (policies.google.com). We hebben geen toegang tot persoonlijk identificeerbare informatie via Analytics."
+      },
+      {
+        "heading": "3. Cookies",
+        "body": "Google Analytics stelt de volgende cookies in:\n• _ga — onderscheidt unieke gebruikers, verloopt na 2 jaar\n• _ga_* — handhaaft sessiestatus, verloopt na 2 jaar\n\nDeze cookies worden alleen ingesteld nadat u uw toestemming hebt gegeven via de cookiebanner. U kunt uw toestemming op elk moment intrekken door uw browsercookies te wissen."
+      },
+      {
+        "heading": "4. Uw keuzes",
+        "body": "U kunt cookietracking weigeren via de banner die wordt weergegeven bij uw eerste bezoek. U kunt ook op elk moment afmelden voor Google Analytics-tracking met behulp van de Google Analytics Opt-out Browser Add-on beschikbaar op tools.google.com/dlpage/gaoptout."
+      },
+      {
+        "heading": "5. Gegevensbewaring",
+        "body": "Analysegegevens worden door Google bewaard gedurende maximaal 26 maanden. We slaan geen persoonlijke gegevens op onze eigen servers op."
+      },
+      {
+        "heading": "6. Wijzigingen in dit beleid",
+        "body": "We kunnen dit privacybeleid van tijd tot tijd bijwerken. Wijzigingen worden op deze pagina gepubliceerd met een bijgewerkte datum."
+      },
+      {
+        "heading": "7. Contact",
+        "body": "Als u vragen heeft over dit privacybeleid, neem dan contact met ons op via het Property Hub-platform."
+      }
+    ]
+  },
+  "hero": {
+    "title": "Toegang tot exclusieve vastgoeddeals",
+    "subtitle": "Speciale prijzen, bonussen en kortingen van ontwikkelaars — via het Property Hub-partnerplatform.",
+    "cta": "Krijg toegang",
+    "badges": ["Speciale prijzen", "Bonussen en kortingen", "Betalingsplannen", "Risicovrij"]
+  },
+  "about": {
+    "label": "Over het platform",
+    "paragraphs": [
+      "Property Hub — is een partnerreferralplatform in de vastgoedsector.",
+      "We verkrijgen speciale (gesloten) voorwaarden van ontwikkelaars en openen ze voor onze partners.",
+      "U beveelt de beste eigendommen aan bij uw klanten onder dezelfde voorwaarden die normaal niet beschikbaar zijn op de open markt."
+    ],
+    "cards": [
+      "U hoeft geen makelaar te zijn. Uw rol — is een aanbeveling.",
+      "De deal wordt volledig beheerd door de verkoopafdeling van de ontwikkelaar."
+    ]
+  },
+  "howItWorks": {
+    "title": "Hoe het werkt",
+    "steps": [
+      "U beveelt een eigendom of project aan en legt de waarde ervan uit aan de klant",
+      "U stuurt de klant uw persoonlijke referrallink of code om een aanvraag in te dienen",
+      "De klant dient een aanvraag in — het systeem registreert wie hem heeft doorverwezen",
+      "De verkoopafdeling van de ontwikkelaar neemt contact op met de klant en beheert de deal volledig: onderhandelingen, documenten, ondersteuning",
+      "Zodra de deal is gesloten, ontvangt u uw referralvergoeding"
+    ]
+  },
+  "earnings": {
+    "title": "Hoeveel kunt u verdienen",
+    "tiers": [
+      { "rate": "4%", "level": "Niveau 0", "desc": "van de dealwaarde, voor deals die u direct heeft gesloten." },
+      { "rate": "1%", "level": "Niveau 1–2", "desc": "van partnerdeals van mensen die u heeft uitgenodigd." }
+    ],
+    "note": "Tarieven kunnen variëren afhankelijk van het project. Vergoedingen worden betaald na succesvolle dealafronding.",
+    "whyTitle": "Waarom we niet concurreren met partners",
+    "whyPoints": [
+      "We hebben geen directe verkoop — we nemen uw klanten niet over.",
+      "Om toegang te krijgen, moet de klant via uw referrallink gaan en een aanvraag indienen.",
+      "Zonder link of code kan de klant deze voorwaarden niet gebruiken.",
+      "Nieuwe partners kunnen zich alleen registreren op uitnodiging.",
+      "Dit systeem beschermt u tegen omzeiling en klantverlies."
+    ]
+  },
+  "forWho": {
+    "title": "Voor wie is dit platform",
+    "cards": [
+      "Als u mensen heeft die geïnteresseerd zijn in het kopen van onroerend goed (vrienden, netwerken, sociale media, klanten)",
+      "Als u geen makelaar wilt worden, maar wilt verdienen aan referrals",
+      "Als u een eenvoudig proces nodig heeft: referral → aanvraag → deal → beloning"
+    ]
+  },
+  "important": {
+    "title": "Belangrijk",
+    "items": [
+      "Dit is geen personeels- of arbeidscontract.",
+      "We beloven geen vast inkomen — betalingen worden alleen gedaan na een succesvolle deal.",
+      "Neem geen geld van klanten aan — we zijn geen fonds, makelaarskantoor of beleggingsadviseur.",
+      "U beveelt aan en verwijst door — al het andere werk wordt gedaan door de afdeling van de ontwikkelaar en gelicentieerde specialisten."
+    ]
+  },
+  "cta": {
+    "title": "Klaar om te beginnen?",
+    "subtitle": "Toegang tot projecten en begin vandaag nog te verdienen aan referrals",
+    "button": "Word partner"
+  }
+}

@@ -82,7 +82,7 @@ const Header = ({ lang, nav }: HeaderProps) => {
         </nav>
 
         {/* Right — language switcher + burger (mobile) */}
-        <div className='flex items-center gap-3'>
+        <div className='flex items-center gap-4'>
           <LanguageSwitcher currentLocale={lang} />
           <BurgerMenu lang={lang} nav={nav} />
         </div>

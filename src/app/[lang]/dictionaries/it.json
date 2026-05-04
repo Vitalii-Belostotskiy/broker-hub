@@ -1,0 +1,124 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "Chi siamo",
+      "howItWorks": "Come funziona",
+      "important": "Importante",
+      "earnings": "Guadagni",
+      "forWho": "Per chi",
+      "readyToStart": "Pronto a iniziare"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Property Hub. Tutti i diritti riservati.",
+    "privacyPolicy": "Informativa sulla privacy"
+  },
+  "cookie": {
+    "message": "Utilizziamo i cookie per analizzare il traffico e migliorare la tua esperienza.",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "learnMore": "Scopri di più"
+  },
+  "privacy": {
+    "back": "Torna alla pagina principale",
+    "title": "Informativa sulla privacy",
+    "updated": "Ultimo aggiornamento: aprile 2025",
+    "sections": [
+      {
+        "heading": "1. Generale",
+        "body": "Questa informativa sulla privacy spiega come Property Hub (\"noi\", \"nostro\") gestisce le informazioni quando visiti il nostro sito web. Non raccogliamo dati personali tramite moduli o account. Tuttavia, utilizziamo strumenti di analisi di terze parti che possono raccogliere automaticamente determinati dati tecnici."
+      },
+      {
+        "heading": "2. Google Analytics",
+        "body": "Utilizziamo Google Analytics per capire come i visitatori interagiscono con il nostro sito. Google Analytics raccoglie informazioni anonimizzate come:\n• Il tuo indirizzo IP (anonimizzato)\n• Tipo e versione del browser\n• Pagine visitate e tempo trascorso\n• Sito web di riferimento\n\nQuesti dati sono elaborati da Google LLC e soggetti all'informativa sulla privacy di Google (policies.google.com). Non abbiamo accesso a informazioni personalmente identificabili tramite Analytics."
+      },
+      {
+        "heading": "3. Cookie",
+        "body": "Google Analytics imposta i seguenti cookie:\n• _ga — distingue gli utenti unici, scade dopo 2 anni\n• _ga_* — mantiene lo stato della sessione, scade dopo 2 anni\n\nQuesti cookie vengono impostati solo dopo il tuo consenso tramite il banner dei cookie. Puoi revocare il consenso in qualsiasi momento cancellando i cookie del browser."
+      },
+      {
+        "heading": "4. Le tue scelte",
+        "body": "Puoi rifiutare il tracciamento dei cookie tramite il banner mostrato alla tua prima visita. Puoi anche rinunciare al tracciamento di Google Analytics in qualsiasi momento utilizzando il componente aggiuntivo del browser disponibile su tools.google.com/dlpage/gaoptout."
+      },
+      {
+        "heading": "5. Conservazione dei dati",
+        "body": "I dati analitici sono conservati da Google per un massimo di 26 mesi. Non memorizziamo alcun dato personale sui nostri server."
+      },
+      {
+        "heading": "6. Modifiche a questa informativa",
+        "body": "Potremmo aggiornare questa informativa sulla privacy di tanto in tanto. Le modifiche saranno pubblicate su questa pagina con una data aggiornata."
+      },
+      {
+        "heading": "7. Contatti",
+        "body": "Se hai domande su questa informativa sulla privacy, contattaci tramite la piattaforma Property Hub."
+      }
+    ]
+  },
+  "hero": {
+    "title": "Accesso a offerte immobiliari esclusive",
+    "subtitle": "Prezzi speciali, bonus e sconti dai costruttori — tramite la piattaforma partner Property Hub.",
+    "cta": "Ottieni accesso",
+    "badges": ["Prezzi speciali", "Bonus e sconti", "Piani rateali", "Senza rischi"]
+  },
+  "about": {
+    "label": "Informazioni sulla piattaforma",
+    "paragraphs": [
+      "Property Hub — è una piattaforma di referral partner nel settore immobiliare.",
+      "Otteniamo condizioni speciali (chiuse) dai costruttori e le apriamo ai nostri partner.",
+      "Raccomandi le migliori proprietà ai tuoi clienti alle stesse condizioni che di solito non sono disponibili sul mercato aperto."
+    ],
+    "cards": [
+      "Non devi essere un agente immobiliare. Il tuo ruolo — è una raccomandazione.",
+      "L'accordo è gestito interamente dal reparto vendite del costruttore."
+    ]
+  },
+  "howItWorks": {
+    "title": "Come funziona",
+    "steps": [
+      "Raccomandi una proprietà o un progetto e ne spieghi il valore al cliente",
+      "Invii al cliente il tuo link di referral personale o codice per inviare una richiesta",
+      "Il cliente invia una richiesta — il sistema registra chi lo ha riferito",
+      "Il reparto vendite del costruttore contatta il cliente e gestisce completamente l'accordo: trattative, documenti, assistenza",
+      "Una volta concluso l'accordo, ricevi la tua commissione di referral"
+    ]
+  },
+  "earnings": {
+    "title": "Quanto puoi guadagnare",
+    "tiers": [
+      { "rate": "4%", "level": "Livello 0", "desc": "del valore dell'accordo, per gli accordi conclusi direttamente." },
+      { "rate": "1%", "level": "Livello 1–2", "desc": "degli accordi dei partner delle persone che hai invitato." }
+    ],
+    "note": "Le tariffe possono variare a seconda del progetto. Le commissioni vengono pagate dopo la chiusura riuscita dell'accordo.",
+    "whyTitle": "Perché non siamo in concorrenza con i partner",
+    "whyPoints": [
+      "Non abbiamo vendite dirette — non prendiamo i tuoi clienti.",
+      "Per ottenere l'accesso, il cliente deve passare attraverso il tuo link di referral e inviare una richiesta.",
+      "Senza link o codice il cliente non può usufruire di queste condizioni.",
+      "I nuovi partner possono registrarsi solo su invito.",
+      "Questo sistema ti protegge dall'aggiramento e dalla perdita di clienti."
+    ]
+  },
+  "forWho": {
+    "title": "A chi è destinata questa piattaforma",
+    "cards": [
+      "Se hai persone interessate all'acquisto di immobili (amici, reti, social media, clienti)",
+      "Se non vuoi diventare un agente immobiliare, ma vuoi guadagnare con i referral",
+      "Se hai bisogno di un processo semplice: referral → richiesta → accordo → ricompensa"
+    ]
+  },
+  "important": {
+    "title": "Importante",
+    "items": [
+      "Questo non è un contratto di lavoro o di assunzione.",
+      "Non promettiamo un reddito fisso — i pagamenti vengono effettuati solo dopo un accordo riuscito.",
+      "Non prendere denaro dai clienti — non siamo un fondo, un broker o un consulente finanziario.",
+      "Raccomandi e riferisci — tutto il resto del lavoro è svolto dal reparto del costruttore e da specialisti autorizzati."
+    ]
+  },
+  "cta": {
+    "title": "Pronto a iniziare?",
+    "subtitle": "Accedi ai progetti e inizia a guadagnare con i referral oggi",
+    "button": "Diventa partner"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "howItWorks": "Cómo funciona",
+      "important": "Importante",
+      "earnings": "Ganancias",
+      "forWho": "Para quién",
+      "readyToStart": "Listo para empezar"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Property Hub. Todos los derechos reservados.",
+    "privacyPolicy": "Política de privacidad"
+  },
+  "cookie": {
+    "message": "Utilizamos cookies para analizar el tráfico y mejorar tu experiencia.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "learnMore": "Más información"
+  },
+  "privacy": {
+    "back": "Volver a la página principal",
+    "title": "Política de privacidad",
+    "updated": "Última actualización: abril de 2025",
+    "sections": [
+      {
+        "heading": "1. General",
+        "body": "Esta política de privacidad explica cómo Property Hub (\"nosotros\", \"nuestro\") maneja la información cuando visitas nuestro sitio web. No recopilamos datos personales a través de formularios o cuentas. Sin embargo, utilizamos herramientas de análisis de terceros que pueden recopilar automáticamente ciertos datos técnicos."
+      },
+      {
+        "heading": "2. Google Analytics",
+        "body": "Utilizamos Google Analytics para entender cómo los visitantes interactúan con nuestro sitio. Google Analytics recopila información anonimizada como:\n• Tu dirección IP (anonimizada)\n• Tipo y versión del navegador\n• Páginas visitadas y tiempo dedicado\n• Sitio web de referencia\n\nEstos datos son procesados por Google LLC y están sujetos a la política de privacidad de Google (policies.google.com). No tenemos acceso a información de identificación personal a través de Analytics."
+      },
+      {
+        "heading": "3. Cookies",
+        "body": "Google Analytics establece las siguientes cookies:\n• _ga — distingue usuarios únicos, vence después de 2 años\n• _ga_* — mantiene el estado de la sesión, vence después de 2 años\n\nEstas cookies solo se establecen después de que des tu consentimiento a través del banner de cookies. Puedes retirar tu consentimiento en cualquier momento borrando las cookies de tu navegador."
+      },
+      {
+        "heading": "4. Tus opciones",
+        "body": "Puedes rechazar el seguimiento de cookies a través del banner que se muestra en tu primera visita. También puedes optar por no participar en el seguimiento de Google Analytics utilizando el complemento del navegador disponible en tools.google.com/dlpage/gaoptout."
+      },
+      {
+        "heading": "5. Retención de datos",
+        "body": "Los datos analíticos son retenidos por Google durante un máximo de 26 meses. No almacenamos ningún dato personal en nuestros propios servidores."
+      },
+      {
+        "heading": "6. Cambios en esta política",
+        "body": "Es posible que actualicemos esta política de privacidad de vez en cuando. Los cambios se publicarán en esta página con una fecha actualizada."
+      },
+      {
+        "heading": "7. Contacto",
+        "body": "Si tienes alguna pregunta sobre esta política de privacidad, contáctanos a través de la plataforma Property Hub."
+      }
+    ]
+  },
+  "hero": {
+    "title": "Acceso a ofertas inmobiliarias exclusivas",
+    "subtitle": "Precios especiales, bonos y descuentos de promotores — a través de la plataforma de socios Property Hub.",
+    "cta": "Obtener acceso",
+    "badges": ["Precios especiales", "Bonos y descuentos", "Planes de pago", "Sin riesgo"]
+  },
+  "about": {
+    "label": "Acerca de la plataforma",
+    "paragraphs": [
+      "Property Hub — es una plataforma de referidos de socios en el sector inmobiliario.",
+      "Obtenemos condiciones especiales (cerradas) de los promotores y las abrimos a nuestros socios.",
+      "Recomiendas las mejores propiedades a tus clientes en las mismas condiciones que generalmente no están disponibles en el mercado abierto."
+    ],
+    "cards": [
+      "No necesitas ser un agente inmobiliario. Tu papel — es una recomendación.",
+      "El trato es gestionado completamente por el departamento de ventas del promotor."
+    ]
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "steps": [
+      "Recomiendas una propiedad o proyecto y explicas su valor al cliente",
+      "Envías al cliente tu enlace de referido personal o código para enviar una solicitud",
+      "El cliente envía una solicitud — el sistema registra quién lo refirió",
+      "El departamento de ventas del promotor contacta al cliente y gestiona el trato completamente: negociaciones, documentos, soporte",
+      "Una vez cerrado el trato, recibes tu comisión de referido"
+    ]
+  },
+  "earnings": {
+    "title": "Cuánto puedes ganar",
+    "tiers": [
+      { "rate": "4%", "level": "Nivel 0", "desc": "del valor del trato, por tratos cerrados directamente." },
+      { "rate": "1%", "level": "Nivel 1–2", "desc": "de los tratos de socios de las personas que invitaste." }
+    ],
+    "note": "Las tasas pueden variar según el proyecto. Las comisiones se pagan después del cierre exitoso del trato.",
+    "whyTitle": "Por qué no competimos con los socios",
+    "whyPoints": [
+      "No tenemos ventas directas — no tomamos tus clientes.",
+      "Para obtener acceso, el cliente debe pasar por tu enlace de referido y enviar una solicitud.",
+      "Sin enlace o código el cliente no puede usar estas condiciones.",
+      "Los nuevos socios solo pueden registrarse por invitación.",
+      "Este sistema te protege contra el desvío y la pérdida de clientes."
+    ]
+  },
+  "forWho": {
+    "title": "Para quién es esta plataforma",
+    "cards": [
+      "Si tienes personas interesadas en comprar bienes raíces (amigos, redes, redes sociales, clientes)",
+      "Si no quieres convertirte en agente inmobiliario, pero quieres ganar con referidos",
+      "Si necesitas un proceso simple: referido → solicitud → trato → recompensa"
+    ]
+  },
+  "important": {
+    "title": "Importante",
+    "items": [
+      "Esto no es un contrato de personal o empleo.",
+      "No prometemos un ingreso fijo — los pagos se realizan solo después de un trato exitoso.",
+      "No tomes dinero de los clientes — no somos un fondo, corretaje o asesor de inversiones.",
+      "Recomiendas y refieres — todo el demás trabajo es realizado por el departamento del promotor y especialistas licenciados."
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para empezar?",
+    "subtitle": "Accede a los proyectos y comienza a ganar con referidos hoy",
+    "button": "Convertirse en socio"
+  }
+}
